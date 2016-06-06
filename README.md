@@ -1,19 +1,22 @@
 # angular-addresses
 
 TODO:
-Addresses
+ADDRESSES
     Upload photos?
-    Table (index of addresses)
-        names, addresses, phone, email, twitter, snapchat
-    Form (create new address)
-        form input fields
-    Edit (edit addresses)
-        form input fields
+[ ] Table (Index of addresses)
+        1. Name,
+        2. Phone
+        3. Email,
+        4. Twitter / Snapchat
+    Form (Create new address)
+        All the form fields
+    Edit (Edit Addresses)
+        All the form fields
     Delete
 
-Authentication
+AUTHENTICATION
     Login form
     Register form
     Logout button
 
-Landing Page
+[x] Landing Page

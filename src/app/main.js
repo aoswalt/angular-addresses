@@ -1,26 +1,15 @@
-angular.module('app', ['ngRoute', 'ui.bootstrap'])
+angular.module("app", ["ngRoute", "ui.bootstrap"])
   .config(($routeProvider) => (
     $routeProvider
-      .when('/', {
-        controller: 'MainCtrl',
-        controllerAs: 'main',
-        templateUrl: 'app/partials/main.html',
+      .when("/", {
+        controller: "MainCtrl",
+        controllerAs: "main",
+        templateUrl: "app/partials/main.html"
       })
-      .otherwise('/')
+      .otherwise("/")
   ))
-  .controller('MainCtrl', function () {
+  .controller("MainCtrl", function () {
     const main = this
-
-    main.alerts = [
-      {
-        type: 'danger',
-        msg: 'Oh snap!'
-      },
-      {
-        type: 'success',
-        msg: 'Hello World!'
-      }
-    ]
 
     main.closeAlert = (index) => main.alerts.splice(index, 1)
 

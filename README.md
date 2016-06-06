@@ -3,13 +3,17 @@
 TODO:
 ADDRESSES
     Upload photos?
-[ ] Table (Index of addresses)
+[x] Table (Index of addresses)
         1. Name,
         2. Phone
         3. Email,
         4. Twitter / Snapchat
-    Form (Create new address)
-        All the form fields
+[ ]    Form (Create new address)
+    addresses/new route
+    link to new route
+    create new partial
+        form with all the form fields
+        submit button
     Edit (Edit Addresses)
         All the form fields
     Delete
@@ -20,3 +24,5 @@ AUTHENTICATION
     Logout button
 
 [x] Landing Page
+
+Phone number display filter
